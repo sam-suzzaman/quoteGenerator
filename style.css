@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+}
+
+.container .card-wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e7e4e4;
+}
+
+.container .card-wrapper .card {
+    background-color: #b6aeae;
+    width: 800px;
+    height: 500px;
+    text-align: left;
+    padding: 60px 60px;
+}
+
+.card-wrapper .generateQuote {
+    width: auto;
+    margin: 0 auto;
+    display: block;
+    text-transform: capitalize;
+    font-size: 35px;
+    outline: none;
+    letter-spacing: 1px;
+    font-weight: 500;
+    padding: 15px 40px;
+    background-color: #ce7b37;
+    color: #fff;
+    border: 2px solid #ce7b37;
+    cursor: pointer;
+    transition: .3s linear;
+}
+
+.card-wrapper .generateQuote:hover {
+    background-color: transparent;
+    border: 2px solid aqua;
+    color: #000;
+
+}
+
+.card-wrapper .quote {
+    margin-top: 60px;
+}
+
+.card-wrapper .quote .quote-icon {
+    font-size: 80px;
+    color: black;
+    opacity: .3;
+}
+
+.quote .quote-text {
+    font-size: 30px;
+    line-height: 41px;
+}
+
+.quote .subtitle {
+    margin-top: 30px;
+    color: #2e3091;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: right;
+}
+
+.quote .subtitle .sign {
+    font-size: 20px;
+}
